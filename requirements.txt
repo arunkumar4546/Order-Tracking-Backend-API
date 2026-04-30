@@ -4,5 +4,5 @@ pydantic==2.12.5
 python-dotenv==1.2.1
 SQLAlchemy==2.0.44
 uvicorn==0.40.0
-passlib[bcrypt]
+passlib[argon2-cffi]
 python-jose[cryptography]
