@@ -7,7 +7,7 @@ from app.core.logging import logger
 
 load_dotenv()
 
-pwd = CryptContext(schemes=["bcrypt"], deprecated="auto")
+pwd = CryptContext(schemes=["argon2"], deprecated="auto")
 ADMIN_USERNAME=os.getenv("ADMIN_USERNAME")
 ADMIN_PASSWORD=os.getenv("ADMIN_PASSWORD")
 

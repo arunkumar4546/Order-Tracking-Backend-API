@@ -8,6 +8,7 @@ class OrderCreate(BaseModel):
 class OrderResponse(BaseModel):
     id: int
     item_name: str
+    quantity: int
     status: str
 
     class Config:
